@@ -2,12 +2,16 @@
 ```shell
 #cd to directory 
 stow --adopt -nvSt ~ *
-stow --adopt -nvDt ~ git 
-stow --adopt -nvt ~ zsh
+```
+```
+stow -nvDt ~ git 
+```
+```
+stow -nvt ~ zsh
 ```
 ## Flags
-* --adopt push exisitng file to git directory 
-* -n no 
+* --adopt     :: push exisitng file to git directory 
+* -n no       :: for testing purpose
 * -v verbose
 * -t target dir 
 * -S link

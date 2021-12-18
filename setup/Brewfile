@@ -1,0 +1,4 @@
+brew "stow"
+brew "zplug"
+cask "iterm2"
+cask "whatsapp"
